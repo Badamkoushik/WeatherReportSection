@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.bg-container {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom, #b96fa1, #5a3f8c);
+    padding: 30px;
+}
+
+.top-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-heading {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+}
+
+.para-first {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 100;
+}
+
+.para-second {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 300;
+}
+
+.main-image {
+    height: 100px;
+    width: 150px;
+}
+
+.bottom-container {
+    background-color: #ffffff20;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.sub-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-color: #e9e9e930;
+    border-width: 3px;
+}
+
+.sub-heading {
+    color: #ffffff;
+    font-weight: 100;
+    font-family: "Roboto";
+    font-size: 20px;
+}
+
+.sub-card-images {
+    height: 50px;
+    width: 50px;
+}
+
+.temp-para-first {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 600;
+}
+
+.temp-para-second {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.sub-para {
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+@media (min-width : 900px) {
+    .top-container {
+        justify-content: flex-start;
+    }
+
+    .main-image {
+        padding-left: 20px;
+    }
+
+    .bottom-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background: none;
+    }
+
+    .sub-card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .temp-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .temp-para-first {
+        padding-right: 10px;
+        align-self: center;
+    }
+
+    .temp-para-second {
+        align-self: center;
+    }
+}
